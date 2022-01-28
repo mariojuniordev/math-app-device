@@ -37,7 +37,7 @@ export function OperationsTable() {
         getVolumeList()
     }, []);
 
-    console.log(volumeList)
+    console.log(volumeList[0])
 
     function getBaskharaList() {
         const req: any = api.get('/math/list/equation')
